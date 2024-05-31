@@ -1,0 +1,22 @@
+{
+    "name": "AxisOscWarudo.editor",
+    "rootNamespace": "",
+    "references": [
+        "BlobHandles.Runtime",
+        "NtpTimestamp",
+        "refract.AxisSDK.Editor",
+        "OscCore.Editor",
+        "Unity.TextMeshPro.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
