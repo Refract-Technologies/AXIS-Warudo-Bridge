@@ -13,11 +13,18 @@ public class InputForScene : MonoBehaviour
 
     public Toggle nodeToggle;
     public Toggle hubToggle;
+    public Toggle chest_EstToggle;
     public BoneConfigurator_UI bCUI;
     public CountdownTimer cTimer;
+
+    public ChestEstimatorFromHipAndArms cEstim;
     public void OpenSettings()
     {
         bCUI.ToggleFromActiveBonePairs();
+    }
+    public void ToggleChestEstimate()
+    {
+        cEstim.estimateRunning = chest_EstToggle.isOn;
     }
     public void CallCalibrate()
     {

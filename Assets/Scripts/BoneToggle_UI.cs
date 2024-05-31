@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 
 public class BoneToggle_UI : MonoBehaviour
 {
-    public Text LabelName;
+    public TMPro.TextMeshProUGUI LabelName;
     public Action Toogled;
     private UnityEngine.UI.Toggle toogleObj;
     public void Start()
